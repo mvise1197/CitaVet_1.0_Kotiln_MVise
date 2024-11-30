@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.miguelvise.citavet_10_kotiln" />
+                  <option name="mobileSdkAppId" value="1:251285882581:android:41b520b869c6d8cba5c45c" />
+                  <option name="projectId" value="citavet-kotlin" />
+                  <option name="projectNumber" value="251285882581" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

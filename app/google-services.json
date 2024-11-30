@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "251285882581",
+    "project_id": "citavet-kotlin",
+    "storage_bucket": "citavet-kotlin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251285882581:android:41b520b869c6d8cba5c45c",
+        "android_client_info": {
+          "package_name": "com.miguelvise.citavet_10_kotiln"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251285882581-vqvji1uhblcslq2t3ai5bsoc4vhtnm2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miguelvise.citavet_10_kotiln",
+            "certificate_hash": "bf51a1b16350f9c1311d4678033ced795ee02306"
+          }
+        },
+        {
+          "client_id": "251285882581-9f4tlvp04bcg12kjru94vqkaou3bu12v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpKJeVcA6n6FceXFTKvTQL8lifWG6YP4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251285882581-9f4tlvp04bcg12kjru94vqkaou3bu12v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

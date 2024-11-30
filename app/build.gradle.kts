@@ -1,11 +1,12 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
     namespace = "com.miguelvise.citavet_10_kotiln"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.miguelvise.citavet_10_kotiln"
@@ -33,6 +34,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -45,4 +50,15 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //IMPLEMENTACIONES EXTERNAS
+    implementation(platform(libs.google.firebase.bom))
+    //Authentication
+    implementation(libs.firebase.auth.ktx)
+    //Cloud Firestore
+    implementation(libs.firebase.firestore.ktx)
+    //Cloud Storage for Firebase
+    implementation(libs.firebase.storage.ktx)
+    //Realtime Database
+    implementation(libs.firebase.database.ktx)
 }
